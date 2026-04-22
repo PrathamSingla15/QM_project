@@ -520,30 +520,30 @@ def render_pdca():
     # DO   bottom-right : 315 - 45   (angle wraps through 360)
     quadrants = [
         dict(name="PLAN",  start=45,  end=135, color=TERRACOTTA, alpha=0.88,
-             letter="P",
+             letter="P", name_offset=(0, -0.13),
              bullets=[
                  "Identify pain points",
                  "Define wait and leakage KPIs",
                  "Design MVP and pilot zone",
              ]),
         dict(name="ACT",   start=135, end=225, color=INK,        alpha=0.92,
-             letter="A",
+             letter="A", name_offset=(0, -0.13),
              bullets=[
-                 "Standardise winning features",
-                 "Iterate on new pain points",
+                 "Standardise winners",
+                 "Iterate on pain points",
                  "Update driver SOPs",
              ]),
         dict(name="CHECK", start=225, end=315, color=MAROON,     alpha=0.90,
-             letter="C",
+             letter="C", name_offset=(0, 0.13),
              bullets=[
                  "Measure KPIs vs baseline",
-                 "Collect satisfaction survey",
-                 "Run Pareto on complaints",
+                 "Collect user feedback",
+                 "Re-run Pareto",
              ]),
         dict(name="DO",    start=315, end=405, color=SAGE,       alpha=0.90,
-             letter="D",
+             letter="D", name_offset=(0, -0.13),
              bullets=[
-                 "Build MVP and onboard E-ricks",
+                 "Build MVP + pilot fleet",
                  "Recruit 50 pilot users",
                  "Run 2-week pilot",
              ]),
@@ -551,8 +551,10 @@ def render_pdca():
 
     R_outer = 1.05
     R_inner_text = 0.28
-    R_letter = 0.86     # letter sits on outer rim
-    R_bullets = 0.58    # bullets in the mid-wedge band
+    # Letters pushed to the rim and shrunk so their glyphs clear the bullet
+    # text block on the ACT/DO horizontal midline.
+    R_letter = 0.94
+    R_bullets = 0.58
 
     for q in quadrants:
         wedge = Wedge(
@@ -564,16 +566,20 @@ def render_pdca():
 
     for q in quadrants:
         theta_mid = math.radians((q["start"] + q["end"]) / 2)
-        # Letter on the outer rim
+        # Letter on the outer rim - smaller so horizontal-midline wedges
+        # (ACT/DO) do not collide with the bullet text.
         lx = R_letter * math.cos(theta_mid)
         ly = R_letter * math.sin(theta_mid)
-        ax.text(lx, ly + 0.04, q["letter"],
+        ax.text(lx, ly, q["letter"],
                 ha="center", va="center",
-                fontsize=54, fontweight="bold",
+                fontsize=42, fontweight="bold",
                 family=TITLE_FONT, color="white", zorder=5)
-        ax.text(lx, ly - 0.13, q["name"],
+        # Wedge name offset per-wedge so it never wanders outside the rim
+        # (CHECK goes above, everyone else below) and never crosses the bullets.
+        dx, dy = q["name_offset"]
+        ax.text(lx + dx, ly + dy, q["name"],
                 ha="center", va="center",
-                fontsize=14, fontweight="bold",
+                fontsize=13, fontweight="bold",
                 family=BODY_FONT, color="white", zorder=5)
 
         # Bullets in the mid-wedge band - single line each, larger type so
