@@ -1,0 +1,11 @@
+#,Failure Mode,Effect,Severity (S),Cause,Occurrence (O),Current Control,Detection (D),RPN,Mitigation
+1,Seat-stealing,Booked student displaced,6,No physical reservation enforcement,3,None,5,90,Driver 'Reached' press locks seat to physically-present student
+2,Driver mistakenly taps 'Reached',Ride billed without boarding,4,UI button too accessible,4,None,3,48,5-second undo toast after tap
+3,Wallet insufficient at ride-end,Unpaid fare; driver dispute,5,No pre-ride balance check,5,None,4,100,Rs.50 soft debt cap; block new bookings until cleared
+4,Race: two bookings same seat,Double booking conflict,5,Concurrent API writes,2,None,2,20,Server-side first-write-wins; loser gets alternate E-rick
+5,Mid-ride drop-off change,Route disruption; fare error,4,No lock after boarding,4,None,5,80,Lock destination after 'Reached'; visible banner
+6,Driver goes offline / GPS lost,Ride stuck; students stranded,7,Network gaps on campus,3,None,6,126,30-sec heartbeat; offline banner; fare finalised on reconnect
+7,Capacity full + offline passenger add,Overcrowding; safety risk,5,No hard capacity check,5,Verbal rule,2,50,Reducer-level hard block with clear error message
+8,Cancellation-fee dispute,User frustration; churn,4,No in-app dispute channel,5,Verbal complaint,6,120,One-tap dispute; 24-hour admin review SLA
+9,Student repeated no-shows,Driver revenue loss; trust erosion,5,No accountability system,4,None,3,60,3-strikes 7-day rule; 1-hour cooldown; reputation meter
+10,Two E-ricks at same location,Student confusion; missed ride,3,No differentiation in UI,6,None,4,72,Stacked card list by passenger count + drop-off alignment
