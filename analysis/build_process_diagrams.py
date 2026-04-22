@@ -523,36 +523,36 @@ def render_pdca():
              letter="P",
              bullets=[
                  "Identify pain points",
-                 "Define wait / leakage KPIs",
-                 "Design MVP + pilot zone",
+                 "Define wait and leakage KPIs",
+                 "Design MVP and pilot zone",
              ]),
         dict(name="ACT",   start=135, end=225, color=INK,        alpha=0.92,
              letter="A",
              bullets=[
                  "Standardise winning features",
                  "Iterate on new pain points",
-                 "Expand; update driver SOPs",
+                 "Update driver SOPs",
              ]),
         dict(name="CHECK", start=225, end=315, color=MAROON,     alpha=0.90,
              letter="C",
              bullets=[
                  "Measure KPIs vs baseline",
                  "Collect satisfaction survey",
-                 "Pareto on new complaints",
+                 "Run Pareto on complaints",
              ]),
         dict(name="DO",    start=315, end=405, color=SAGE,       alpha=0.90,
              letter="D",
              bullets=[
-                 "Build MVP; onboard 5 E-ricks",
+                 "Build MVP and onboard E-ricks",
                  "Recruit 50 pilot users",
                  "Run 2-week pilot",
              ]),
     ]
 
-    R_outer = 1.02
-    R_inner_text = 0.22
-    R_letter = 0.82     # letter sits on outer rim
-    R_bullets = 0.55    # bullets in the mid-wedge band
+    R_outer = 1.05
+    R_inner_text = 0.28
+    R_letter = 0.86     # letter sits on outer rim
+    R_bullets = 0.58    # bullets in the mid-wedge band
 
     for q in quadrants:
         wedge = Wedge(
@@ -576,38 +576,27 @@ def render_pdca():
                 fontsize=14, fontweight="bold",
                 family=BODY_FONT, color="white", zorder=5)
 
-        # Bullets in the mid-wedge band - wrap to keep within wedge
+        # Bullets in the mid-wedge band - single line each, larger type so
+        # they are legible from the back row of a lecture hall.
         bx = R_bullets * math.cos(theta_mid)
         by = R_bullets * math.sin(theta_mid)
-        wrapped = [_wrap_text(b, 18) for b in q["bullets"]]
-        text = "\n".join([f"- {b}" for b in wrapped])
+        text = "\n".join([f"- {b}" for b in q["bullets"]])
         ax.text(bx, by, text,
                 ha="center", va="center",
-                fontsize=10.5, color="white",
-                family=BODY_FONT, linespacing=1.35,
+                fontsize=14, color="white",
+                family=BODY_FONT, linespacing=1.55,
                 multialignment="left", zorder=5)
 
-    # Central circle
+    # Central circle - sized to fit PDCA + Cycle labels without collision.
+    # No inner arrow icon (it previously overlapped the PDCA wordmark).
     ax.add_patch(Circle((0, 0), R_inner_text,
                         facecolor="white", edgecolor=INK,
                         linewidth=2, zorder=6))
-    ax.text(0, 0.03, "PDCA", ha="center", va="center",
-            fontsize=16, fontweight="bold", family=TITLE_FONT, color=INK,
+    ax.text(0, 0.06, "PDCA", ha="center", va="center",
+            fontsize=22, fontweight="bold", family=TITLE_FONT, color=INK,
             zorder=7)
-    ax.text(0, -0.07, "Cycle", ha="center", va="center",
-            fontsize=12, family=BODY_FONT, color=SOFT_MUTED, zorder=7)
-
-    # Circular-arrow icon (clockwise) inside inner circle boundary
-    arc_r = R_inner_text * 0.72
-    # A 270-degree clockwise arc hinted at the direction of traversal
-    arc = FancyArrowPatch(
-        (arc_r * math.cos(math.radians(135)), arc_r * math.sin(math.radians(135))),
-        (arc_r * math.cos(math.radians(225)), arc_r * math.sin(math.radians(225))),
-        connectionstyle="arc3,rad=-1.2",
-        arrowstyle="-|>", mutation_scale=10,
-        lw=1.2, color=SOFT_MUTED, zorder=8,
-    )
-    ax.add_patch(arc)
+    ax.text(0, -0.09, "Cycle", ha="center", va="center",
+            fontsize=13, family=BODY_FONT, color=SOFT_MUTED, zorder=7)
 
     # Directional arrows between quadrants (clockwise flow outside the donut)
     # Clockwise order: PLAN -> DO -> CHECK -> ACT -> PLAN

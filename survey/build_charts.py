@@ -255,11 +255,14 @@ def chart_pareto():
 
     top3_pct = cumulative[2]  # 56.8%
 
-    fig, ax1 = plt.subplots(figsize=(14, 7.5), constrained_layout=False)
-    fig.subplots_adjust(left=0.08, right=0.90, top=0.68, bottom=0.18)
+    fig, ax1 = plt.subplots(figsize=(14, 8.2), constrained_layout=False)
+    fig.subplots_adjust(left=0.08, right=0.90, top=0.68, bottom=0.28)
 
     x = np.arange(len(keys))
     bars = ax1.bar(x, vals, color=C_TERRA, edgecolor=C_INK, linewidth=0.8, zorder=3)
+    # Give the top of the axis 30% headroom so the legend and cumulative line
+    # never collide with bars.
+    ax1.set_ylim(0, max(vals) * 1.4)
 
     # Bar top annotations
     for bar, val in zip(bars, vals):
@@ -272,7 +275,7 @@ def chart_pareto():
 
     ax1.set_xticks(x)
     ax1.set_xticklabels(keys, rotation=20, ha="right", fontsize=13)
-    ax1.set_xlabel("Pain point", fontsize=16)
+    ax1.set_xlabel("Pain point", fontsize=16, labelpad=18)
     ax1.set_ylabel("Mentions (count)", fontsize=16)
     ax1.tick_params(axis="y", labelsize=13)
     style_spines(ax1)
@@ -295,15 +298,18 @@ def chart_pareto():
     ax2.text(len(keys) - 0.05, 81.5, "80% threshold",
              ha="right", va="bottom", fontsize=11, color=C_MUTED)
 
-    # Legend
+    # Legend - placed in the upper-left whitespace above the bars. Headroom is
+    # reserved by setting ax1 ylim to 1.4x max bar (above), so legend never
+    # collides with either the first bar top or the cumulative line.
     bar_patch = mpatches.Patch(color=C_TERRA, label="Mentions")
     line_handle, = ax1.plot([], [], color=C_INK, marker="o",
                             markersize=7, linewidth=2, label="Cumulative %")
     ax1.legend(
         handles=[bar_patch, line_handle],
-        loc="upper right", fontsize=13,
+        loc="upper left", fontsize=13,
         frameon=True, framealpha=0.95,
         edgecolor=C_RULE,
+        bbox_to_anchor=(0.01, 0.98),
     )
 
     add_title_block(
