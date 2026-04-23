@@ -1,135 +1,135 @@
 respondent_id,q1_year,q2_hostel,q3_department,q4_rides_per_week,q5_wait_minutes,q6_detour_freq,q7_payment_issue_freq,q8_late_incidents,q9_driver_courtesy,q10_night_availability,q11_overall_satisfaction,q12_issues_faced,q13_top3_ranked,q14_app_willingness,q15_1min_window_comfort,q16_wallet_comfort,q17_topup_amount,q18_fee_acceptance,q19_fare_preference,q20_share_dropoff,q21_dedicated_vs_whatsapp,q22_open_text
 R001,2nd,Govind,CSE,8,4,3,2,2,4,2,2,long_wait;payment_issue;empty_return_seen;rude_driver;no_night_availability,payment_issue;empty_return_seen;no_night_availability,4,3,2,260,4,per_seat,3,4,
 R002,3rd,Rajendra,Chemistry,12,2,1,3,4,3,2,2,long_wait,long_wait,3,4,3,740,3,per_seat,4,3,
-R003,1st,Govind,CSE,11,4,5,4,2,4,3,3,long_wait;empty_return_seen;no_night_availability,long_wait;empty_return_seen;no_night_availability,5,4,3,240,4,per_seat,3,3,Install a visible fare chart — it's different every ride.
+R003,1st,Govind,CSE,11,4,5,4,2,4,3,3,long_wait;empty_return_seen;no_night_availability,long_wait;empty_return_seen;no_night_availability,5,4,3,240,4,per_seat,3,3,visible fare chart needed its different every single ride
 R004,3rd,Sarojini,EE,11,3,4,4,4,3,2,3,long_wait;route_detour;empty_return_seen,empty_return_seen;long_wait;route_detour,3,3,4,90,3,per_seat,4,3,
 R005,4th,Cautley,HSS,9,3,3,3,3,4,1,4,rude_driver,rude_driver,4,3,2,260,3,fixed,3,4,
 R006,PG,Rajendra,ECE,9,3,2,3,2,4,2,3,long_wait;no_night_availability,long_wait;no_night_availability,4,3,4,330,3,per_seat,4,1,
-R007,2nd,Kasturba,Physics,10,5,3,2,4,3,2,3,route_detour;payment_issue,payment_issue;route_detour,3,4,3,100,2,fixed,3,4,GPS tracking so I know exactly when the e-rick will reach.
-R008,PG,Kasturba,ECE,5,1,1,2,1,5,3,4,empty_return_seen,empty_return_seen,4,3,2,170,3,per_seat,3,3,Show driver name and photo for safety.
-R009,4th,Sarojini,CSE,13,2,2,2,0,4,2,3,long_wait;route_detour;payment_issue;empty_return_seen,long_wait;route_detour;payment_issue,3,3,2,100,3,per_seat,4,4,Book in advance for post-class pickup — we all leave together.
-R010,PG,Sarojini,HSS,9,4,4,2,4,3,2,2,route_detour;payment_issue;empty_return_seen,empty_return_seen;payment_issue;route_detour,5,5,2,90,5,fixed,4,3,Make a dedicated women's E-rick during late hours.
+R007,2nd,Kasturba,Physics,10,5,3,2,4,3,2,3,route_detour;payment_issue,payment_issue;route_detour,3,4,3,100,2,fixed,3,4,rick wait karte karte class miss ho jati hai kai baar
+R008,PG,Kasturba,ECE,5,1,1,2,1,5,3,4,empty_return_seen,empty_return_seen,4,3,2,170,3,per_seat,3,3,group booking with frnds on same rick should be allowed
+R009,4th,Sarojini,CSE,13,2,2,2,0,4,2,3,long_wait;route_detour;payment_issue;empty_return_seen,long_wait;route_detour;payment_issue,3,3,2,100,3,per_seat,4,4,empty rick wapas jati hui dikhti hai bahut waste
+R010,PG,Sarojini,HSS,9,4,4,2,4,3,2,2,route_detour;payment_issue;empty_return_seen,empty_return_seen;payment_issue;route_detour,5,5,2,90,5,fixed,4,3,fixed schedule jaise shuttle bus ho toh easy ho jayega
 R011,4th,Sarojini,CSE,7,3,3,2,2,2,1,2,long_wait;route_detour;payment_issue;empty_return_seen;no_night_availability,route_detour;payment_issue;empty_return_seen,4,5,1,460,2,fixed,2,3,
-R012,4th,Rajendra,Chemistry,7,2,2,2,0,4,2,5,route_detour;empty_return_seen,empty_return_seen;route_detour,2,3,1,180,4,fixed,3,1,Install a visible fare chart — it's different every ride.
+R012,4th,Rajendra,Chemistry,7,2,2,2,0,4,2,5,route_detour;empty_return_seen,empty_return_seen;route_detour,2,3,1,180,4,fixed,3,1,gps tracking hona chahiye pata toh chale kitne min me aayega
 R013,PG,Govind,ECE,12,6,4,3,5,2,1,3,empty_return_seen;no_night_availability,empty_return_seen;no_night_availability,3,3,3,560,4,per_seat,4,4,
-R014,PG,Ravindra,ECE,10,5,5,4,3,4,1,3,long_wait;payment_issue;empty_return_seen;rude_driver;no_night_availability,payment_issue;no_night_availability;empty_return_seen,4,4,3,230,4,fixed,3,3,Fixed schedule like a shuttle bus would help.
-R015,PG,Sarojini,ME,2,5,4,4,4,3,1,2,long_wait;route_detour;no_night_availability,route_detour;long_wait;no_night_availability,4,3,4,160,5,per_seat,5,4,Reduce the 4-seat minimum during off-peak — even 2 passengers is fine.
-R016,3rd,Ravindra,CE,10,2,3,2,2,4,3,3,long_wait;route_detour;payment_issue,long_wait;route_detour;payment_issue,3,5,2,90,3,per_seat,3,4,Book in advance for post-class pickup — we all leave together.
+R014,PG,Ravindra,ECE,10,5,5,4,3,4,1,3,long_wait;payment_issue;empty_return_seen;rude_driver;no_night_availability,payment_issue;no_night_availability;empty_return_seen,4,4,3,230,4,fixed,3,3,ek saath 5 ricks aati hai phir ghante bhar nahi dikhti
+R015,PG,Sarojini,ME,2,5,4,4,4,3,1,2,long_wait;route_detour;no_night_availability,route_detour;long_wait;no_night_availability,4,3,4,160,5,per_seat,5,4,book in advance for post class pickup we all leave together
+R016,3rd,Ravindra,CE,10,2,3,2,2,4,3,3,long_wait;route_detour;payment_issue,long_wait;route_detour;payment_issue,3,5,2,90,3,per_seat,3,4,Per seat fare is much better than paying full for detours
 R017,3rd,Jawahar,CE,10,3,3,3,3,3,2,2,long_wait;route_detour,long_wait;route_detour,3,3,3,210,5,per_seat,3,4,
 R018,1st,Ravindra,CSE,11,3,4,3,1,4,2,2,long_wait;payment_issue;rude_driver,rude_driver;long_wait;payment_issue,3,4,2,310,2,no_preference,3,3,
-R019,1st,Rajendra,ECE,13,5,3,3,2,3,2,3,long_wait;rude_driver,rude_driver;long_wait,3,4,3,210,4,per_seat,3,4,Reduce the 4-seat minimum during off-peak — even 2 passengers is fine.
-R020,1st,Jawahar,CSE,14,4,3,3,3,3,2,3,long_wait;payment_issue;no_night_availability,long_wait;no_night_availability;payment_issue,4,4,3,510,3,fixed,3,3,Show driver name and photo for safety.
+R019,1st,Rajendra,ECE,13,5,3,3,2,3,2,3,long_wait;rude_driver,rude_driver;long_wait,3,4,3,210,4,per_seat,3,4,womens only rick at night would be really helpful
+R020,1st,Jawahar,CSE,14,4,3,3,3,3,2,3,long_wait;payment_issue;no_night_availability,long_wait;no_night_availability;payment_issue,4,4,3,510,3,fixed,3,3,group booking hone chahiye friends ke sath same rick me
 R021,PG,Rajendra,ECE,11,2,2,3,1,3,1,3,long_wait;payment_issue;empty_return_seen,long_wait;empty_return_seen;payment_issue,4,4,3,130,4,fixed,2,4,
 R022,1st,Govind,ECE,12,2,2,2,4,3,3,3,empty_return_seen,empty_return_seen,3,3,2,230,3,per_seat,4,4,
-R023,4th,Govind,Physics,18,5,2,2,3,2,2,3,rude_driver;no_night_availability,rude_driver;no_night_availability,4,3,2,370,4,fixed,4,5,Show driver name and photo for safety.
-R024,4th,Rajendra,ME,11,4,3,2,2,3,2,3,route_detour,route_detour,4,2,3,350,2,fixed,4,3,An app would save so much waiting time at Main Gate.
+R023,4th,Govind,Physics,18,5,2,2,3,2,2,3,rude_driver;no_night_availability,rude_driver;no_night_availability,4,3,2,370,4,fixed,4,5,hostel aur academic area ke liye alag alag rick chalne chahiye
+R024,4th,Rajendra,ME,11,4,3,2,2,3,2,3,route_detour,route_detour,4,2,3,350,2,fixed,4,3,online booking ho jaye toh kafi convenient rahega
 R025,PG,Sarojini,Physics,9,4,2,2,2,4,3,3,payment_issue;rude_driver;no_night_availability,payment_issue;rude_driver;no_night_availability,4,4,2,250,4,fixed,4,4,
-R026,4th,Jawahar,Physics,9,2,3,3,1,3,4,4,route_detour;rude_driver;no_night_availability,route_detour;no_night_availability;rude_driver,3,4,3,100,3,no_preference,3,5,
+R026,4th,Jawahar,Physics,9,2,2,2,1,3,4,3,route_detour;rude_driver;no_night_availability,route_detour;no_night_availability;rude_driver,3,4,3,100,3,no_preference,3,5,
 R027,2nd,Cautley,ECE,15,3,2,1,0,4,4,4,long_wait;payment_issue;empty_return_seen;no_night_availability,long_wait;empty_return_seen;no_night_availability,2,3,3,240,2,per_seat,3,3,
 R028,3rd,Cautley,ME,12,2,2,2,3,4,2,2,route_detour;payment_issue;rude_driver;no_night_availability,no_night_availability;payment_issue;route_detour,4,2,2,420,3,fixed,3,3,
-R029,2nd,Other,EE,12,2,3,2,0,3,4,4,long_wait;rude_driver,rude_driver;long_wait,2,3,1,230,3,fixed,3,3,Reduce the 4-seat minimum during off-peak — even 2 passengers is fine.
-R030,2nd,Other,Chemistry,6,6,2,3,2,3,2,4,rude_driver,rude_driver,3,4,3,290,4,fixed,3,3,Late-night availability is the biggest issue for library-goers.
+R029,2nd,Other,EE,12,2,2,1,0,3,4,3,long_wait;rude_driver,rude_driver;long_wait,2,3,1,230,3,fixed,3,3,group booking hone chahiye friends ke sath same rick me
+R030,2nd,Other,Chemistry,6,6,2,3,2,3,2,4,rude_driver,rude_driver,3,4,3,290,4,fixed,3,3,womens only rick at night would be really helpful
 R031,3rd,Rajendra,ECE,8,2,3,2,3,4,3,3,payment_issue;rude_driver;no_night_availability,payment_issue;no_night_availability;rude_driver,4,4,3,70,3,fixed,4,2,
-R032,1st,Sarojini,CE,8,3,3,3,3,3,1,2,route_detour;empty_return_seen;rude_driver,empty_return_seen;rude_driver;route_detour,4,2,3,640,3,per_seat,5,2,Allow group-booking with friends for the same E-rick.
+R032,1st,Sarojini,CE,8,3,3,3,3,3,1,2,route_detour;empty_return_seen;rude_driver,empty_return_seen;rude_driver;route_detour,4,2,3,640,3,per_seat,5,2,gps tracking hona chahiye pata toh chale kitne min me aayega
 R033,PG,Kasturba,ECE,16,4,3,3,5,2,1,2,long_wait;payment_issue;rude_driver,payment_issue;rude_driver;long_wait,4,4,3,180,3,per_seat,4,2,
-R034,3rd,Govind,Physics,11,5,3,3,4,4,1,3,route_detour;payment_issue;empty_return_seen;no_night_availability,empty_return_seen;route_detour;no_night_availability,4,4,3,460,5,per_seat,5,5,Reduce the 4-seat minimum during off-peak — even 2 passengers is fine.
-R035,3rd,Sarojini,EE,7,2,2,3,2,4,2,5,none_of_these,,3,2,2,150,4,per_seat,2,2,
+R034,3rd,Govind,Physics,11,5,3,3,4,4,1,3,route_detour;payment_issue;empty_return_seen;no_night_availability,empty_return_seen;route_detour;no_night_availability,4,4,3,460,5,per_seat,5,5,driver bohot der wait karwata hai phir bolta full ho gayi
+R035,3rd,Sarojini,EE,7,2,1,2,2,4,2,4,none_of_these,,3,2,2,150,4,per_seat,2,2,
 R036,PG,Kasturba,Maths,13,2,3,2,5,4,2,3,payment_issue,payment_issue,3,5,3,340,4,no_preference,4,2,
-R037,2nd,Jawahar,Chemistry,8,2,2,2,0,4,2,4,payment_issue,payment_issue,4,4,2,130,4,per_seat,4,2,
-R038,3rd,Sarojini,Physics,15,4,3,2,2,2,1,3,long_wait;payment_issue;empty_return_seen,long_wait;payment_issue;empty_return_seen,4,4,3,230,3,per_seat,5,5,GPS tracking so I know exactly when the e-rick will reach.
+R037,2nd,Jawahar,Chemistry,8,2,3,3,0,4,2,5,payment_issue,payment_issue,4,4,2,130,4,per_seat,4,2,
+R038,3rd,Sarojini,Physics,15,4,3,2,2,2,1,3,long_wait;payment_issue;empty_return_seen,long_wait;payment_issue;empty_return_seen,4,4,3,230,3,per_seat,5,5,separate ricks for hostel and academic zones plz
 R039,3rd,Rajendra,Other,7,3,2,2,2,4,2,3,long_wait;rude_driver,long_wait;rude_driver,3,4,3,170,4,fixed,4,4,
 R040,3rd,Cautley,ME,7,3,2,3,3,3,3,3,long_wait;route_detour;payment_issue,route_detour;payment_issue;long_wait,4,3,4,370,2,per_seat,4,3,
 R041,2nd,Govind,ECE,17,3,3,3,2,4,1,3,long_wait;payment_issue;empty_return_seen,empty_return_seen;payment_issue;long_wait,4,5,2,330,3,per_seat,3,3,
-R042,1st,Govind,HSS,13,3,3,2,2,4,3,4,long_wait;payment_issue,payment_issue;long_wait,4,3,2,250,3,fixed,3,2,Book in advance for post-class pickup — we all leave together.
+R042,1st,Govind,HSS,13,3,3,2,2,4,3,4,long_wait;payment_issue,payment_issue;long_wait,4,3,2,250,3,fixed,3,2,payment ka issue rehta hai chutta nahi hota kabhi
 R043,PG,Cautley,ME,4,3,2,1,1,3,3,3,long_wait;route_detour;payment_issue;empty_return_seen,route_detour;long_wait;empty_return_seen,3,4,3,70,4,fixed,3,4,
 R044,1st,Cautley,Physics,12,4,2,3,2,3,1,3,long_wait;route_detour;payment_issue,long_wait;route_detour;payment_issue,4,2,3,190,4,per_seat,3,2,
 R045,3rd,Jawahar,Chemistry,8,2,2,1,0,5,3,3,payment_issue,payment_issue,3,4,2,230,1,fixed,3,4,
 R046,1st,Cautley,Maths,10,5,5,2,6,3,1,2,long_wait;route_detour;empty_return_seen;rude_driver,route_detour;rude_driver;long_wait,4,3,3,110,4,per_seat,4,5,
-R047,3rd,Govind,Other,8,4,2,1,2,3,2,3,long_wait;rude_driver;no_night_availability,rude_driver;long_wait;no_night_availability,4,5,2,110,2,no_preference,4,3,Separate E-ricks for hostels vs academic area zones.
+R047,3rd,Govind,Other,8,4,2,1,2,3,2,3,long_wait;rude_driver;no_night_availability,rude_driver;long_wait;no_night_availability,4,5,2,110,2,no_preference,4,3,rick wait karte karte class miss ho jati hai kai baar
 R048,2nd,Jawahar,Chemistry,6,4,3,3,4,3,1,3,long_wait;route_detour;payment_issue;empty_return_seen;no_night_availability,no_night_availability;empty_return_seen;payment_issue,4,3,3,180,4,fixed,4,3,
 R049,3rd,Rajendra,Other,13,4,3,3,4,2,2,2,long_wait;no_night_availability,no_night_availability;long_wait,4,3,4,250,4,no_preference,3,5,
 R050,3rd,Kasturba,Physics,11,3,3,3,2,4,3,4,payment_issue;rude_driver;no_night_availability,payment_issue;rude_driver;no_night_availability,3,3,3,80,2,per_seat,3,3,
-R051,2nd,Ravindra,Maths,14,5,3,3,4,3,2,2,long_wait;payment_issue;rude_driver;no_night_availability,no_night_availability;long_wait;rude_driver,4,4,3,250,4,no_preference,3,4,Drivers should carry change; I never have exact money.
+R051,2nd,Ravindra,Maths,14,5,3,3,4,3,2,2,long_wait;payment_issue;rude_driver;no_night_availability,no_night_availability;long_wait;rude_driver,2,4,1,250,4,no_preference,3,2,Please introduce cashless payment — UPI would be ideal.
 R052,PG,Sarojini,EE,9,3,1,2,2,4,2,3,rude_driver;no_night_availability,rude_driver;no_night_availability,3,3,2,100,3,per_seat,3,2,
 R053,PG,Other,ECE,9,4,1,2,2,4,2,3,none_of_these,,3,4,3,340,3,no_preference,3,4,
-R054,2nd,Rajendra,HSS,13,3,2,3,1,3,2,4,long_wait;route_detour,route_detour;long_wait,3,5,2,170,3,fixed,3,4,
-R055,1st,Sarojini,CSE,12,3,3,3,1,3,3,3,long_wait;empty_return_seen;rude_driver,empty_return_seen;rude_driver;long_wait,4,4,3,170,3,per_seat,4,3,GPS tracking so I know exactly when the e-rick will reach.
+R054,2nd,Rajendra,HSS,13,3,1,2,1,3,2,3,long_wait;route_detour,route_detour;long_wait,3,5,2,170,3,fixed,3,4,
+R055,1st,Sarojini,CSE,12,3,3,3,1,3,3,3,long_wait;empty_return_seen;rude_driver,empty_return_seen;rude_driver;long_wait,4,4,3,170,3,per_seat,4,3,driver phone pe baat karte karte chalata hai safety ka issue
 R056,PG,Ravindra,Other,10,4,3,2,2,3,2,4,rude_driver,rude_driver,4,3,3,140,3,fixed,4,4,
 R057,1st,Kasturba,EE,9,3,2,2,2,4,2,2,route_detour;no_night_availability,route_detour;no_night_availability,4,3,3,100,2,no_preference,5,3,
-R058,1st,Ravindra,Physics,14,3,3,3,3,3,2,3,payment_issue,payment_issue,4,4,3,330,3,per_seat,4,4,Late-night availability is the biggest issue for library-goers.
+R058,1st,Ravindra,Physics,14,3,3,3,3,3,2,3,payment_issue,payment_issue,4,4,3,330,3,per_seat,4,4,group booking with frnds on same rick should be allowed
 R059,4th,Jawahar,CSE,15,3,2,2,1,4,4,4,no_night_availability,no_night_availability,4,3,2,140,4,fixed,3,5,
-R060,2nd,Jawahar,Physics,7,3,3,2,3,5,2,3,long_wait;route_detour;no_night_availability,no_night_availability;route_detour;long_wait,4,3,3,120,4,fixed,4,3,GPS tracking so I know exactly when the e-rick will reach.
-R061,4th,Kasturba,CSE,6,3,2,2,3,4,2,2,long_wait;route_detour;payment_issue,payment_issue;route_detour;long_wait,4,4,3,220,3,no_preference,4,2,Allow group-booking with friends for the same E-rick.
+R060,2nd,Jawahar,Physics,7,3,3,2,3,5,2,3,long_wait;route_detour;no_night_availability,no_night_availability;route_detour;long_wait,4,3,3,120,4,fixed,4,3,reduce 4 seat min in off peak even 2 passengers is fine
+R061,4th,Kasturba,CSE,6,3,2,2,3,4,2,2,long_wait;route_detour;payment_issue,payment_issue;route_detour;long_wait,4,4,3,220,3,no_preference,4,2,visible fare chart needed its different every single ride
 R062,2nd,Govind,Chemistry,3,3,2,2,2,4,3,3,empty_return_seen;rude_driver,rude_driver;empty_return_seen,3,2,3,190,4,fixed,4,3,
 R063,PG,Rajendra,Other,13,7,3,3,3,2,3,2,route_detour;payment_issue;no_night_availability,route_detour;payment_issue;no_night_availability,5,5,3,240,5,per_seat,4,4,
 R064,PG,Kasturba,ECE,5,3,4,2,2,4,1,4,long_wait;empty_return_seen;no_night_availability,empty_return_seen;long_wait;no_night_availability,3,4,3,230,3,fixed,4,3,
 R065,2nd,Rajendra,EE,12,4,2,2,1,3,1,2,long_wait;rude_driver;no_night_availability,no_night_availability;rude_driver;long_wait,4,3,2,300,2,no_preference,3,3,
 R066,1st,Cautley,CSE,5,3,4,2,4,3,1,2,long_wait;rude_driver,rude_driver;long_wait,4,5,3,260,3,per_seat,3,4,
-R067,1st,Jawahar,ME,5,6,3,3,2,3,3,2,route_detour;payment_issue;rude_driver,payment_issue;rude_driver;route_detour,5,3,2,400,4,no_preference,4,5,
-R068,2nd,Rajendra,Other,8,4,1,2,2,4,4,3,none_of_these,,4,4,2,230,3,fixed,3,3,Separate E-ricks for hostels vs academic area zones.
-R069,4th,Kasturba,CSE,13,3,3,2,5,2,2,3,long_wait;route_detour,long_wait;route_detour,5,4,2,190,3,no_preference,4,4,GPS tracking so I know exactly when the e-rick will reach.
-R070,2nd,Rajendra,ECE,10,2,3,1,2,4,1,3,long_wait;route_detour,long_wait;route_detour,3,3,2,110,3,per_seat,3,4,
+R067,1st,Jawahar,ME,5,6,3,3,2,3,3,2,route_detour;payment_issue;rude_driver,payment_issue;rude_driver;route_detour,3,3,1,400,4,no_preference,4,3,
+R068,2nd,Rajendra,Other,8,4,2,3,2,4,4,4,none_of_these,,4,4,2,230,3,fixed,3,3,driver tracking karna chahiye taaki pata chale kahan tak pahuncha
+R069,4th,Kasturba,CSE,13,3,3,2,5,2,2,3,long_wait;route_detour,long_wait;route_detour,5,4,2,190,3,no_preference,4,4,book in advance for post class pickup we all leave together
+R070,2nd,Rajendra,ECE,10,2,4,2,2,4,1,4,long_wait;route_detour,long_wait;route_detour,3,3,2,110,3,per_seat,3,4,
 R071,PG,Govind,CSE,10,3,2,2,3,3,3,4,payment_issue;no_night_availability,payment_issue;no_night_availability,3,3,3,240,2,per_seat,4,2,
 R072,3rd,Rajendra,ME,10,3,2,3,3,3,2,4,route_detour;payment_issue;empty_return_seen;no_night_availability,route_detour;empty_return_seen;no_night_availability,3,2,3,190,3,per_seat,2,3,
 R073,2nd,Sarojini,CE,12,2,2,2,1,5,3,3,long_wait;empty_return_seen;rude_driver,empty_return_seen;long_wait;rude_driver,4,2,2,70,2,fixed,3,4,
-R074,1st,Jawahar,ME,9,5,3,2,4,3,1,2,long_wait;empty_return_seen;no_night_availability,no_night_availability;long_wait;empty_return_seen,4,5,3,150,4,fixed,4,5,Show driver name and photo for safety.
+R074,1st,Jawahar,ME,9,5,3,2,4,3,1,2,long_wait;empty_return_seen;no_night_availability,no_night_availability;long_wait;empty_return_seen,4,5,3,150,4,fixed,4,5,group booking hone chahiye friends ke sath same rick me
 R075,2nd,Sarojini,CSE,10,3,3,4,4,3,1,3,long_wait;route_detour;payment_issue;empty_return_seen,route_detour;empty_return_seen;payment_issue,4,4,3,120,2,per_seat,4,3,
-R076,PG,Sarojini,ME,10,2,4,4,4,4,2,2,long_wait;route_detour;rude_driver,rude_driver;long_wait;route_detour,5,4,4,250,2,per_seat,4,4,Fixed schedule like a shuttle bus would help.
-R077,2nd,Kasturba,ME,10,3,3,3,5,3,2,3,long_wait;payment_issue;empty_return_seen,empty_return_seen;long_wait;payment_issue,3,4,1,640,3,per_seat,5,1,An app would save so much waiting time at Main Gate.
-R078,3rd,Cautley,Maths,9,3,3,3,2,3,1,3,empty_return_seen,empty_return_seen,4,3,2,160,4,per_seat,3,2,GPS tracking so I know exactly when the e-rick will reach.
+R076,PG,Sarojini,ME,10,2,4,4,4,4,2,2,long_wait;route_detour;rude_driver,rude_driver;long_wait;route_detour,5,4,4,250,2,per_seat,4,4,gps tracking hona chahiye pata toh chale kitne min me aayega
+R077,2nd,Kasturba,ME,10,3,3,3,5,3,2,3,long_wait;payment_issue;empty_return_seen,empty_return_seen;long_wait;payment_issue,3,4,1,640,3,per_seat,5,1,fare chart visible ho har ride pe alag daam lete hain bhaiya log
+R078,3rd,Cautley,Maths,9,3,3,3,2,3,1,3,empty_return_seen,empty_return_seen,4,3,2,160,4,per_seat,3,2,fixed schedule jaise shuttle bus ho toh easy ho jayega
 R079,4th,Govind,ECE,10,2,3,2,2,4,3,2,long_wait;empty_return_seen;rude_driver,rude_driver;long_wait;empty_return_seen,4,3,2,250,2,fixed,4,4,
 R080,PG,Rajendra,Maths,12,3,4,4,3,3,1,3,long_wait;empty_return_seen,long_wait;empty_return_seen,5,5,5,190,5,per_seat,3,4,
 R081,1st,Jawahar,CSE,17,3,2,3,4,2,1,3,long_wait;route_detour;payment_issue;empty_return_seen;rude_driver;no_night_availability,long_wait;no_night_availability;route_detour,4,3,3,220,4,per_seat,4,4,
 R082,4th,Govind,EE,11,3,3,3,3,2,1,4,route_detour;payment_issue;no_night_availability,no_night_availability;payment_issue;route_detour,4,4,3,320,3,per_seat,4,3,
-R083,PG,Kasturba,CE,10,3,3,2,2,3,3,3,payment_issue;rude_driver,rude_driver;payment_issue,3,3,2,90,5,fixed,4,3,Allow group-booking with friends for the same E-rick.
-R084,4th,Rajendra,ECE,5,4,4,1,3,4,2,2,long_wait;payment_issue;empty_return_seen,empty_return_seen;payment_issue;long_wait,3,4,3,510,3,per_seat,3,4,Make a dedicated women's E-rick during late hours.
+R083,PG,Kasturba,CE,10,3,3,2,2,3,3,3,payment_issue;rude_driver,rude_driver;payment_issue,3,3,2,90,5,fixed,4,3,having an app will save soo much time at main gate
+R084,4th,Rajendra,ECE,5,4,4,1,3,4,2,2,long_wait;payment_issue;empty_return_seen,empty_return_seen;payment_issue;long_wait,3,4,3,510,3,per_seat,3,4,fixed schedule jaise shuttle bus ho toh easy ho jayega
 R085,PG,Rajendra,CSE,13,2,4,4,4,3,1,2,long_wait;route_detour;empty_return_seen;rude_driver;no_night_availability,rude_driver;route_detour;long_wait,5,4,4,200,3,per_seat,4,4,
 R086,1st,Cautley,Physics,9,4,4,3,1,3,2,2,long_wait;empty_return_seen,empty_return_seen;long_wait,4,4,3,650,2,fixed,4,3,
-R087,1st,Cautley,ECE,11,3,4,3,5,3,2,2,rude_driver,rude_driver,3,4,2,300,4,per_seat,3,2,
+R087,1st,Cautley,ECE,11,3,4,3,5,3,2,2,rude_driver,rude_driver,5,4,4,300,4,per_seat,3,4,
 R088,4th,Govind,CE,8,4,3,2,2,2,2,3,long_wait,long_wait,4,4,2,370,4,fixed,4,3,
 R089,4th,Kasturba,CSE,14,3,3,5,2,4,2,3,long_wait,long_wait,1,4,2,260,2,fixed,4,1,
 R090,PG,Cautley,ECE,11,2,3,3,5,4,2,2,route_detour;empty_return_seen;rude_driver,empty_return_seen;rude_driver;route_detour,3,5,2,120,3,fixed,3,3,
-R091,1st,Kasturba,ME,14,3,2,4,3,4,1,4,payment_issue;empty_return_seen;no_night_availability,no_night_availability;payment_issue;empty_return_seen,3,4,3,160,4,per_seat,2,3,Allow group-booking with friends for the same E-rick.
+R091,1st,Kasturba,ME,14,3,2,4,3,4,1,4,payment_issue;empty_return_seen;no_night_availability,no_night_availability;payment_issue;empty_return_seen,3,4,3,160,4,per_seat,2,3,Late-night avaibility is the biggest isssue for us
 R092,3rd,Rajendra,ECE,8,2,4,2,3,3,2,3,long_wait,long_wait,5,4,2,140,3,fixed,4,4,
-R093,1st,Rajendra,ECE,13,3,4,3,3,3,1,3,route_detour;empty_return_seen;no_night_availability,route_detour;no_night_availability;empty_return_seen,2,4,1,150,3,fixed,5,1,Fixed schedule like a shuttle bus would help.
+R093,1st,Rajendra,ECE,13,3,4,3,3,3,1,3,route_detour;empty_return_seen;no_night_availability,route_detour;no_night_availability;empty_return_seen,4,4,3,150,3,fixed,5,3,payment ka issue rehta hai chutta nahi hota kabhi
 R094,3rd,Kasturba,CSE,11,6,4,3,4,2,2,3,long_wait;payment_issue;empty_return_seen;no_night_availability,no_night_availability;payment_issue;long_wait,5,5,3,200,2,fixed,5,3,
-R095,3rd,Govind,CSE,12,4,3,3,2,3,3,3,empty_return_seen,empty_return_seen,3,2,3,580,4,per_seat,4,3,Allow group-booking with friends for the same E-rick.
-R096,3rd,Govind,ME,13,4,4,3,5,3,3,2,long_wait;route_detour,long_wait;route_detour,2,3,2,170,4,per_seat,3,1,Drivers are rude when the ride is for a short distance.
+R095,3rd,Govind,CSE,12,4,3,3,2,3,3,3,empty_return_seen,empty_return_seen,3,2,3,580,4,per_seat,4,3,having an app will save soo much time at main gate
+R096,3rd,Govind,ME,13,4,4,3,5,3,3,2,long_wait;route_detour,long_wait;route_detour,4,3,4,170,4,per_seat,3,3,online booking ho jaye toh kafi convenient rahega
 R097,PG,Sarojini,CSE,13,3,5,4,6,3,2,2,long_wait;route_detour;empty_return_seen;no_night_availability,no_night_availability;route_detour;empty_return_seen,4,4,4,240,5,fixed,5,5,
-R098,1st,Cautley,CE,12,4,4,4,5,4,3,3,long_wait;payment_issue;rude_driver;no_night_availability,no_night_availability;payment_issue;rude_driver,4,4,3,330,5,fixed,4,4,Book in advance for post-class pickup — we all leave together.
+R098,1st,Cautley,CE,12,4,4,4,5,4,3,3,long_wait;payment_issue;rude_driver;no_night_availability,no_night_availability;payment_issue;rude_driver,2,4,1,330,5,fixed,4,2,night time ke liye alag system hona chahiye
 R099,1st,Jawahar,CSE,10,4,4,3,5,3,2,2,long_wait;route_detour;payment_issue;no_night_availability,no_night_availability;payment_issue;long_wait,4,4,3,180,4,per_seat,2,4,
 R100,1st,Jawahar,ME,9,4,2,3,3,4,2,3,route_detour;payment_issue;empty_return_seen,empty_return_seen;payment_issue;route_detour,4,3,3,280,3,no_preference,2,5,
-R101,1st,Govind,ME,13,4,4,3,6,3,3,2,long_wait;payment_issue;rude_driver,long_wait;rude_driver;payment_issue,4,5,3,480,4,per_seat,3,5,GPS tracking so I know exactly when the e-rick will reach.
-R102,1st,Kasturba,ME,9,3,4,3,4,3,2,3,long_wait;payment_issue;empty_return_seen;rude_driver;no_night_availability,long_wait;empty_return_seen;payment_issue,5,5,5,340,3,fixed,4,4,
-R103,2nd,Jawahar,CSE,6,2,3,2,3,4,2,3,long_wait;payment_issue,payment_issue;long_wait,4,4,3,350,3,per_seat,4,2,An app would save so much waiting time at Main Gate.
+R101,1st,Govind,ME,13,4,4,3,6,3,3,2,long_wait;payment_issue;rude_driver,long_wait;rude_driver;payment_issue,4,5,3,480,4,per_seat,3,5,night time ke liye alag system hona chahiye
+R102,1st,Kasturba,ME,9,3,4,3,4,3,2,3,long_wait;payment_issue;empty_return_seen;rude_driver;no_night_availability,long_wait;empty_return_seen;payment_issue,3,5,3,340,3,fixed,4,2,
+R103,2nd,Jawahar,CSE,6,2,3,2,3,4,2,3,long_wait;payment_issue,payment_issue;long_wait,4,4,3,350,3,per_seat,4,2,drivers r rude when its a short distance ride
 R104,2nd,Govind,CSE,5,3,3,2,2,2,1,3,long_wait;payment_issue;empty_return_seen,long_wait;payment_issue;empty_return_seen,3,3,2,210,5,fixed,3,4,
-R105,PG,Jawahar,Other,11,5,3,3,3,4,1,3,long_wait;payment_issue;empty_return_seen;rude_driver,payment_issue;empty_return_seen;rude_driver,4,3,3,110,5,per_seat,4,4,Drivers are rude when the ride is for a short distance.
-R106,4th,Sarojini,ME,8,3,4,2,4,4,2,3,route_detour,route_detour,5,3,3,360,4,per_seat,4,5,Drivers are rude when the ride is for a short distance.
+R105,PG,Jawahar,Other,11,5,3,3,3,4,1,3,long_wait;payment_issue;empty_return_seen;rude_driver,payment_issue;empty_return_seen;rude_driver,4,3,3,110,5,per_seat,4,4,4 seat fill hone ka wait kyu off peak me 2 bhi chal jaye
+R106,4th,Sarojini,ME,8,3,4,2,4,4,2,3,route_detour,route_detour,3,3,1,360,4,per_seat,4,3,Fixed schedule like a shuttle bus would realy help
 R107,PG,Rajendra,EE,11,5,3,2,3,3,2,3,long_wait;route_detour,long_wait;route_detour,4,3,2,230,3,no_preference,3,4,
-R108,4th,Cautley,Physics,10,4,4,4,3,4,1,3,long_wait;route_detour;payment_issue,long_wait;payment_issue;route_detour,5,4,3,100,2,per_seat,4,5,Late-night availability is the biggest issue for library-goers.
-R109,PG,Jawahar,ME,11,4,1,3,2,4,3,4,long_wait;rude_driver,long_wait;rude_driver,3,3,2,320,3,fixed,3,1,Separate E-ricks for hostels vs academic area zones.
+R108,4th,Cautley,Physics,10,4,4,4,3,4,1,3,long_wait;route_detour;payment_issue,long_wait;payment_issue;route_detour,5,4,3,100,2,per_seat,4,5,fare chart visible ho har ride pe alag daam lete hain bhaiya log
+R109,PG,Jawahar,ME,11,4,2,4,2,4,3,5,long_wait;rude_driver,long_wait;rude_driver,3,3,2,320,3,fixed,3,1,per seat fare zyada sahi hai full pay karna galat hai
 R110,2nd,Rajendra,ECE,6,4,3,3,4,3,2,3,long_wait;no_night_availability,long_wait;no_night_availability,3,4,2,230,4,per_seat,2,4,
 R111,3rd,Rajendra,ECE,6,4,4,4,7,2,1,2,long_wait;route_detour;payment_issue,route_detour;long_wait;payment_issue,4,5,5,100,5,per_seat,3,4,
 R112,1st,Cautley,ME,8,4,3,3,3,2,2,3,long_wait;route_detour;payment_issue;rude_driver;no_night_availability,rude_driver;payment_issue;long_wait,5,3,4,150,3,per_seat,3,4,
-R113,1st,Kasturba,CSE,7,3,2,1,2,4,1,4,no_night_availability,no_night_availability,2,3,2,240,2,fixed,3,3,Drivers should carry change; I never have exact money.
-R114,PG,Govind,CSE,9,3,5,4,5,2,2,2,long_wait;route_detour;payment_issue;empty_return_seen;rude_driver;no_night_availability,empty_return_seen;no_night_availability;payment_issue,1,4,2,230,5,per_seat,4,3,Reduce the 4-seat minimum during off-peak — even 2 passengers is fine.
-R115,3rd,Sarojini,Chemistry,5,3,2,1,2,4,2,4,payment_issue;no_night_availability,no_night_availability;payment_issue,3,4,3,80,3,per_seat,3,2,An app would save so much waiting time at Main Gate.
+R113,1st,Kasturba,CSE,7,3,3,2,2,4,1,5,no_night_availability,no_night_availability,2,3,2,240,2,fixed,3,3,having an app will save soo much time at main gate
+R114,PG,Govind,CSE,9,3,5,4,5,2,2,2,long_wait;route_detour;payment_issue;empty_return_seen;rude_driver;no_night_availability,empty_return_seen;no_night_availability;payment_issue,3,4,4,230,5,per_seat,4,5,fare chart visible ho har ride pe alag daam lete hain bhaiya log
+R115,3rd,Sarojini,Chemistry,5,3,2,1,2,4,2,4,payment_issue;no_night_availability,no_night_availability;payment_issue,3,4,3,80,3,per_seat,3,2,online booking ho jaye toh kafi convenient rahega
 R116,PG,Cautley,CSE,6,2,3,2,3,3,3,3,long_wait;route_detour,route_detour;long_wait,4,3,2,290,1,per_seat,4,3,
 R117,2nd,Ravindra,Chemistry,10,3,2,4,2,4,3,3,long_wait;route_detour;empty_return_seen,empty_return_seen;long_wait;route_detour,3,3,3,310,3,fixed,2,5,
 R118,2nd,Rajendra,CE,4,5,2,2,2,3,1,3,long_wait;payment_issue;rude_driver;no_night_availability,rude_driver;long_wait;payment_issue,3,2,2,540,4,no_preference,4,3,
 R119,1st,Ravindra,Maths,11,5,2,1,2,2,3,4,route_detour;empty_return_seen,empty_return_seen;route_detour,4,4,2,300,4,no_preference,3,3,
-R120,PG,Jawahar,Other,10,3,3,2,2,4,2,3,payment_issue,payment_issue,3,3,3,380,1,per_seat,1,2,Separate E-ricks for hostels vs academic area zones.
-R121,3rd,Govind,Maths,15,2,3,2,4,2,3,2,none_of_these,,2,2,1,330,3,per_seat,3,1,
+R120,PG,Jawahar,Other,10,3,3,2,2,4,2,3,payment_issue,payment_issue,3,3,3,380,1,per_seat,1,2,Per seat fare is much better than paying full for detours
+R121,3rd,Govind,Maths,15,2,3,2,4,2,3,2,none_of_these,,4,2,3,330,3,per_seat,3,3,
 R122,4th,Kasturba,Chemistry,7,2,3,3,3,1,1,2,rude_driver;no_night_availability,no_night_availability;rude_driver,4,4,4,470,2,fixed,3,4,
 R123,1st,Rajendra,ECE,7,4,4,2,1,4,2,3,payment_issue;empty_return_seen;no_night_availability,no_night_availability;payment_issue;empty_return_seen,4,4,2,420,2,per_seat,3,4,
-R124,3rd,Ravindra,CE,12,2,2,1,1,3,2,4,long_wait;route_detour;empty_return_seen;no_night_availability,route_detour;no_night_availability;long_wait,3,2,2,410,1,per_seat,4,4,Late-night availability is the biggest issue for library-goers.
-R125,PG,Govind,CSE,9,4,3,4,6,1,1,2,long_wait;payment_issue;empty_return_seen;no_night_availability,long_wait;no_night_availability;payment_issue,3,4,2,100,2,fixed,5,3,Allow group-booking with friends for the same E-rick.
-R126,1st,Other,CSE,8,2,3,4,4,4,3,3,long_wait;payment_issue;empty_return_seen;no_night_availability,long_wait;no_night_availability;empty_return_seen,4,5,3,250,4,fixed,4,3,Allow group-booking with friends for the same E-rick.
+R124,3rd,Ravindra,CE,12,2,2,1,1,3,2,4,long_wait;route_detour;empty_return_seen;no_night_availability,route_detour;no_night_availability;long_wait,3,2,2,410,1,per_seat,4,4,night time ke liye alag system hona chahiye
+R125,PG,Govind,CSE,9,4,3,4,6,1,1,2,long_wait;payment_issue;empty_return_seen;no_night_availability,long_wait;no_night_availability;payment_issue,5,4,4,100,2,fixed,5,5,empty rick wapas jati hui dikhti hai bahut waste
+R126,1st,Other,CSE,8,2,3,4,4,4,3,3,long_wait;payment_issue;empty_return_seen;no_night_availability,long_wait;no_night_availability;empty_return_seen,4,5,3,250,4,fixed,4,3,show driver name n photo in app for safety
 R127,2nd,Other,CSE,7,2,3,4,2,4,3,3,long_wait;route_detour;payment_issue;no_night_availability,route_detour;payment_issue;long_wait,5,4,3,150,3,fixed,2,4,
 R128,PG,Jawahar,HSS,10,3,2,2,2,3,2,3,no_night_availability,no_night_availability,4,3,3,100,2,fixed,4,4,
-R129,4th,Cautley,Other,14,3,4,2,3,3,2,2,long_wait;payment_issue;no_night_availability,long_wait;payment_issue;no_night_availability,3,1,3,190,4,per_seat,3,3,
+R129,4th,Cautley,Other,14,3,4,2,3,3,2,2,long_wait;payment_issue;no_night_availability,long_wait;payment_issue;no_night_availability,1,1,1,190,4,per_seat,3,1,
 R130,1st,Sarojini,Chemistry,14,3,2,2,1,3,3,3,long_wait;route_detour;empty_return_seen,route_detour;long_wait;empty_return_seen,3,4,2,60,3,fixed,3,4,
-R131,PG,Sarojini,HSS,5,3,4,3,5,3,1,2,long_wait;route_detour;payment_issue;no_night_availability,payment_issue;no_night_availability;route_detour,3,4,3,100,5,no_preference,4,3,GPS tracking so I know exactly when the e-rick will reach.
+R131,PG,Sarojini,HSS,5,3,4,3,5,3,1,2,long_wait;route_detour;payment_issue;no_night_availability,payment_issue;no_night_availability;route_detour,3,4,3,100,5,no_preference,4,3,ek saath 5 ricks aati hai phir ghante bhar nahi dikhti
 R132,2nd,Jawahar,EE,9,3,2,4,4,4,1,3,route_detour;payment_issue;empty_return_seen,route_detour;empty_return_seen;payment_issue,4,3,3,120,4,fixed,3,3,
 R133,2nd,Jawahar,ECE,12,3,4,3,2,4,2,3,long_wait;route_detour;empty_return_seen;rude_driver;no_night_availability,empty_return_seen;no_night_availability;long_wait,3,4,2,130,4,fixed,4,4,
 R134,PG,Rajendra,ECE,12,1,3,2,3,3,2,3,long_wait;empty_return_seen;rude_driver,long_wait;empty_return_seen;rude_driver,3,4,4,590,3,per_seat,5,4,
@@ -137,15 +137,15 @@ R135,3rd,Ravindra,Other,11,4,3,4,4,4,2,2,long_wait;route_detour;payment_issue;ru
 R136,2nd,Cautley,CSE,12,2,4,2,4,2,1,2,payment_issue,payment_issue,5,4,3,80,3,fixed,4,3,
 R137,1st,Jawahar,ME,10,3,2,2,2,3,3,3,long_wait;empty_return_seen,empty_return_seen;long_wait,3,4,2,260,4,fixed,4,4,
 R138,2nd,Kasturba,Other,7,5,4,3,1,4,1,2,route_detour;payment_issue,payment_issue;route_detour,4,4,2,430,5,fixed,4,4,
-R139,3rd,Cautley,Physics,13,1,2,1,1,3,3,4,payment_issue;no_night_availability,no_night_availability;payment_issue,3,4,1,260,4,per_seat,4,3,
-R140,PG,Kasturba,CSE,9,3,3,3,0,4,3,4,route_detour;payment_issue,payment_issue;route_detour,3,2,2,180,1,no_preference,2,3,
-R141,1st,Sarojini,CSE,14,2,3,3,2,3,3,3,long_wait;payment_issue;no_night_availability,long_wait;no_night_availability;payment_issue,4,5,2,150,4,per_seat,3,3,Fixed schedule like a shuttle bus would help.
+R139,3rd,Cautley,Physics,13,1,3,2,1,3,3,5,payment_issue;no_night_availability,no_night_availability;payment_issue,3,4,1,260,4,per_seat,4,3,
+R140,PG,Kasturba,CSE,9,3,2,2,0,4,3,3,route_detour;payment_issue,payment_issue;route_detour,3,2,2,180,1,no_preference,2,3,
+R141,1st,Sarojini,CSE,14,2,3,3,2,3,3,3,long_wait;payment_issue;no_night_availability,long_wait;no_night_availability;payment_issue,4,5,2,150,4,per_seat,3,3,per seat fare zyada sahi hai full pay karna galat hai
 R142,1st,Govind,Chemistry,6,3,4,2,2,3,2,4,long_wait;no_night_availability,no_night_availability;long_wait,3,3,3,180,4,per_seat,5,2,
 R143,PG,Ravindra,CE,12,4,3,3,3,3,2,4,long_wait;rude_driver;no_night_availability,long_wait;rude_driver;no_night_availability,3,4,2,260,3,fixed,2,4,
-R144,2nd,Kasturba,CE,11,4,4,3,4,3,1,2,long_wait;route_detour;empty_return_seen;rude_driver;no_night_availability,rude_driver;empty_return_seen;route_detour,4,5,3,300,4,per_seat,3,4,Late-night availability is the biggest issue for library-goers.
+R144,2nd,Kasturba,CE,11,4,4,3,4,3,1,2,long_wait;route_detour;empty_return_seen;rude_driver;no_night_availability,rude_driver;empty_return_seen;route_detour,4,5,3,300,4,per_seat,3,4,4 seat fill hone ka wait kyu off peak me 2 bhi chal jaye
 R145,1st,Rajendra,ME,12,3,3,4,3,2,2,2,long_wait;rude_driver;no_night_availability,long_wait;no_night_availability;rude_driver,4,4,5,100,3,no_preference,3,4,
 R146,2nd,Other,CSE,14,4,3,2,3,3,2,3,route_detour,route_detour,4,3,3,100,3,per_seat,4,3,
-R147,PG,Rajendra,Maths,13,3,3,4,3,4,2,3,route_detour;rude_driver;no_night_availability,no_night_availability;route_detour;rude_driver,4,5,4,150,4,per_seat,3,4,Drivers should carry change; I never have exact money.
-R148,1st,Other,Physics,14,2,3,3,1,4,3,4,rude_driver,rude_driver,3,4,2,300,2,per_seat,3,4,
-R149,2nd,Other,Other,14,5,3,3,2,3,2,3,route_detour;no_night_availability,route_detour;no_night_availability,4,3,3,400,4,per_seat,3,3,Fixed schedule like a shuttle bus would help.
+R147,PG,Rajendra,Maths,13,3,3,4,3,4,2,3,route_detour;rude_driver;no_night_availability,no_night_availability;route_detour;rude_driver,4,5,4,150,4,per_seat,3,4,drivers shud carry change i never have exact money
+R148,1st,Other,Physics,14,2,2,2,1,4,3,3,rude_driver,rude_driver,3,4,2,300,2,per_seat,3,4,
+R149,2nd,Other,Other,14,5,3,3,2,3,2,3,route_detour;no_night_availability,route_detour;no_night_availability,4,3,3,400,4,per_seat,3,3,driver ka naam aur photo app me dikhna chahiye safety ke liye
 R150,2nd,Govind,ME,12,3,5,3,5,3,2,3,long_wait;route_detour;payment_issue;empty_return_seen;rude_driver;no_night_availability,empty_return_seen;no_night_availability;route_detour,4,4,3,230,4,fixed,4,4,
