@@ -168,7 +168,7 @@ def chart_histogram():
     fig, ax = plt.subplots(figsize=(14, 7.5), constrained_layout=False)
     fig.subplots_adjust(left=0.08, right=0.95, top=0.68, bottom=0.13)
 
-    ax.hist(wait, bins=30, range=(0, 30),
+    ax.hist(wait, bins=12, range=(0, 12),
             color=C_TERRA, alpha=0.88,
             edgecolor=C_INK, linewidth=0.8)
 
@@ -188,8 +188,8 @@ def chart_histogram():
             ha="left" if xoffset >= 0 else "right",
         )
 
-    callout(mean_v,   f"Mean {mean_v:.1f} min",   C_INK,   xoffset=0.35)
-    callout(median_v, f"Median {median_v:.0f} min", C_SAGE, xoffset=-2.8)
+    callout(mean_v,   f"Mean {mean_v:.1f} min",   C_INK,   xoffset=0.20)
+    callout(median_v, f"Median {median_v:.0f} min", C_SAGE, xoffset=-1.2)
 
     # Stats annotation block (top-right)
     stats_txt = (
@@ -206,9 +206,9 @@ def chart_histogram():
         bbox=dict(boxstyle="round,pad=0.45", fc="white", ec=C_RULE, lw=0.8),
     )
 
-    # Axes
-    ax.set_xlim(0, 30)
-    ax.set_xticks(range(0, 31, 5))
+    # Axes - tight to the actual data range (new baseline caps ~7 min)
+    ax.set_xlim(0, 12)
+    ax.set_xticks(range(0, 13, 2))
     ax.xaxis.set_minor_locator(mticker.MultipleLocator(1))
     ax.set_xlabel("Wait time (minutes)", fontsize=16)
     ax.set_ylabel("Number of respondents", fontsize=16)
