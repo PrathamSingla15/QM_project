@@ -34,7 +34,7 @@ IIT Roorkee spans approximately 365 acres. The distance between the main hostel 
 
 ### Pain Point 1: Route Mismatch Wastes Time in Emergencies
 
-When 4 passengers board with 4 distinct destinations, the driver must serve all stops, turning a 4-minute direct ride into a 12-15 minute multi-stop detour (student-reported estimate, not measured). Students heading to an exam or a scheduled viva have no visibility into where co-passengers are going before they board. A student who would otherwise walk 8 minutes ends up spending 15 minutes in a detour-heavy ride. This unpredictability is highest during transition periods between lectures, precisely when punctuality matters most.
+When 4 passengers board with 4 distinct destinations, the driver must serve all stops, turning a 4-minute direct ride into a 12-15 minute multi-stop detour (student-reported estimate, not measured). Students heading to an exam or a scheduled viva have no visibility into where co-passengers are going before they board. A student who would otherwise walk 3 minutes ends up spending 15 minutes in a detour-heavy ride. This unpredictability is highest during transition periods between lectures, precisely when punctuality matters most.
 
 ### Pain Point 2: Forced-Fill Delay
 

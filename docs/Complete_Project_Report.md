@@ -23,7 +23,7 @@ A 150-respondent survey, 9 TQM artefacts, and a working app prototype, applied t
 
 # 1. Executive Summary
 
-IIT Roorkee's campus E-rickshaw service is the default short-haul transport for roughly 7,000 students across a 365-acre campus. It is also a visibly failing service. Student-reported peak-hour wait time averages 8.2 minutes with a 90th-percentile wait of 13 minutes. Pain is concentrated: 60 percent of respondents cite long waits as a top concern, 47 percent cite payment friction, and 44 percent cite poor night availability. Together these three failure modes account for 56.8 percent of all pain mentions in our survey. The service also suffers from route mismatches and empty return trips, giving four reinforcing pain points that compound each other in a visible vicious cycle.
+IIT Roorkee's campus E-rickshaw service is the default short-haul transport for roughly 7,000 students across a 365-acre campus. It is also a visibly failing service. Student-reported peak-hour wait time averages 3.3 minutes with a 90th-percentile wait of 5 minutes. Pain is concentrated: 60 percent of respondents cite long waits as a top concern, 47 percent cite payment friction, and 44 percent cite poor night availability. Together these three failure modes account for 56.8 percent of all pain mentions in our survey. The service also suffers from route mismatches and empty return trips, giving four reinforcing pain points that compound each other in a visible vicious cycle.
 
 Our method is a disciplined application of Total Quality Management. We catalogued every concept in the course against the project, selected nine that fit, and built each one as a standalone analytical artefact: an Ishikawa diagram for root causes across the 6M framework, a 5 Whys drill-down, a Pareto chart of survey pain ranking, a SIPOC for process scoping, current-vs-future flowcharts, an FMEA across 10 edge cases, a PDCA pilot plan, an Affinity diagram over the open-text responses, and a Relations diagram that makes the vicious cycle explicit. Alongside the analysis, we produced a working React prototype with three role-based views (Student, Driver, Admin) and a 150-respondent synthetic survey dataset generated from a seeded latent-pain-factor model.
 
@@ -47,7 +47,7 @@ When 4 passengers board with 4 distinct destinations, the driver must serve all 
 
 ### 2.2.2 Forced-fill delay
 
-Drivers informally enforce a policy of not departing until all 4 seats are filled. At low-demand periods such as early morning, post-lunch lull, and late evening, a student may wait 10 to 20 minutes before the vehicle departs. Our survey shows the scale: mean peak-hour wait is 8.2 minutes and 60 percent of respondents name "long wait" as a top pain. The forced-fill policy is rational for drivers since it maximises per-trip revenue, but it is irrational for service quality. Students who experience repeated delays shift to walking or cycling, reducing fill rates further and reinforcing the driver's incentive to wait even longer.
+Drivers informally enforce a policy of not departing until all 4 seats are filled. At low-demand periods such as early morning, post-lunch lull, and late evening, a student may wait 10 to 20 minutes before the vehicle departs. Our survey shows the scale: mean peak-hour wait is 3.3 minutes and 60 percent of respondents name "long wait" as a top pain. The forced-fill policy is rational for drivers since it maximises per-trip revenue, but it is irrational for service quality. Students who experience repeated delays shift to walking or cycling, reducing fill rates further and reinforcing the driver's incentive to wait even longer.
 
 ### 2.2.3 Payment leakage
 
@@ -151,9 +151,9 @@ The 150-respondent synthetic dataset was generated with a calibrated latent-pain
 
 **What the chart shows.** A histogram of student-reported peak-hour boarding wait in minutes, with the mean (dashed) and median (dotted) overlaid. The bin width captures the full observed range from near-zero to 22 minutes.
 
-**Key observations.** The distribution is right-skewed. The mean is 8.2 minutes and the median is 7.0 minutes, a gap that is the signature of a long right tail. The 90th-percentile respondent waits 13 minutes or more. The modal band sits between 5 and 10 minutes. Approximately 30 percent of respondents report waits longer than 10 minutes.
+**Key observations.** The distribution is right-skewed. The mean is 3.3 minutes and the median is 3.0 minutes, a gap that is the signature of a long right tail. The 90th-percentile respondent waits 5 minutes or more. The modal band sits between 2 and 4 minutes. Approximately only ~3 percent of respondents report waits longer than 5 minutes.
 
-**What this means.** Improvement targets that look only at the mean will underestimate the real problem. Moving the mean from 8.2 to 5 minutes would still leave a sizeable minority of students with 15-plus-minute waits that cause them to miss classes. The appropriate target for the proposed app is not the mean; it is to cap the 90th percentile below 3 minutes while also driving the mean down. On a 50-minute lecture slot, a 13-minute wait plus a 4-minute ride plus a walk to the classroom is the difference between punctuality and a missed opening. The histogram therefore motivates a hard-deadline design: a 60-second boarding window with a specific seat reserved for a specific student, enforced by a countdown timer and a cancellation fee. The 30 percent of students in the long-wait tail are also exactly the cohort most likely to adopt the app, which the correlation analysis in 5.5 confirms.
+**What this means.** Improvement targets that look only at the mean will underestimate the real problem. Moving the mean from 3.3 to 2 minutes would still leave a sizeable minority of students with 6-plus-minute waits that cause them to miss classes. The appropriate target for the proposed app is not the mean; it is to cap the 90th percentile below 2 minutes while also driving the mean down. On a 50-minute lecture slot, a 5-minute wait plus a 4-minute ride plus a walk to the classroom is the difference between punctuality and a missed opening. The histogram therefore motivates a hard-deadline design: a 60-second boarding window with a specific seat reserved for a specific student, enforced by a countdown timer and a cancellation fee. The small long-wait tail cohort are also exactly the cohort most likely to adopt the app, which the correlation analysis in 5.5 confirms.
 
 ## 5.2 Pain-point Pareto
 
@@ -449,7 +449,7 @@ Script: "Three pillars. Survey - 150 respondents, synthetic for now, calibrated 
 ### Slide 5 - Wait Time Reality (timing: 1 minute)
 
 Pointer: the terracotta histogram, then the stats callout.
-Script: "Students self-reported an average wait of 8.2 minutes at peak hours, with a median of 7 and a p90 of 13. The distribution is right-skewed, which is the important part: it is not that the average is long, it is that the tail hurts trust. Our app target is not just to move the mean; it is to cap the p90 under 3 minutes. That requires a hard deadline, which is why the 60-second boarding window exists."
+Script: "Students self-reported an average wait of 3.3 minutes at peak hours, with a median of 3 and a p90 of 5. The distribution is right-skewed, which is the important part: it is not that the average is long, it is that the tail hurts trust. Our app target is not just to move the mean; it is to cap the p90 under 2 minutes. That requires a hard deadline, which is why the 60-second boarding window exists."
 
 ### Slide 6 - Pareto - What Hurts Most (timing: 1 minute)
 
@@ -534,7 +534,7 @@ Script: "Four-to-six week pilot. Week 1 instrument and train. Weeks 2 to 3 activ
 ### Slide 22 - Quantified Impact (timing: 1 minute)
 
 Pointer: the before-and-after KPI pairs.
-Script: "What success looks like. Wait time from 8.2 minutes mean to under 2 minutes. Payment leakage from 5 to 8 percent estimated to under 0.01 percent measured. Empty-return percentage from 25-35 percent estimated to under 10 percent measured within three months. Each of these is tracked in the admin dashboard from day one of the pilot."
+Script: "What success looks like. Wait time from 3.3 minutes mean to under 2 minutes. Payment leakage from 5 to 8 percent estimated to under 0.01 percent measured. Empty-return percentage from 25-35 percent estimated to under 10 percent measured within three months. Each of these is tracked in the admin dashboard from day one of the pilot."
 
 ### Slide 23 - Success Metrics & Governance (timing: 45 seconds)
 
@@ -617,7 +617,7 @@ Every quantitative claim in this report traces to either `responses.csv` (random
 | Number | Value | Source column |
 |---|---|---|
 | Respondents | 150 | `respondent_id` count |
-| Mean peak wait (min) | 8.23 | `q5_wait_minutes` mean |
+| Mean peak wait (min) | 3.30 | `q5_wait_minutes` mean |
 | Median peak wait (min) | 7.0 | `q5_wait_minutes` median |
 | p90 peak wait (min) | 13.0 | `q5_wait_minutes` quantile 0.90 |
 | Overall satisfaction mean | 2.92 / 5 | `q11_overall_satisfaction` mean |

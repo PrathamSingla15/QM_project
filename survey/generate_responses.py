@@ -56,10 +56,12 @@ q4_rides_per_week = np.clip(
 
 # Q5 — Average wait time during peak hours (minutes)
 #       Log-normal so there are realistic long-tail waits.
-#       Use log(5 + pain*5) with sigma=0.38 to centre mean around 7–9 min.
+#       Tuned so the baseline mean sits near 3.2 min and p90 near 5 min,
+#       which matches observed campus E-rick behaviour better than the
+#       earlier 7-9 min centre.
 q5_wait_minutes = np.clip(
-    np.round(np.random.lognormal(np.log(5 + pain * 5), 0.38)),
-    1, 30
+    np.round(np.random.lognormal(np.log(2.2 + pain * 1.8), 0.28)),
+    1, 15
 ).astype(int)
 
 # Q6 — Route detour frequency (Likert 1–5)

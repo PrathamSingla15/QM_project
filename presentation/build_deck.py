@@ -409,11 +409,11 @@ def slide_02_problem(prs) -> None:
     hb = slide.shapes.add_textbox(Inches(0.7), Inches(1.55), Inches(12.0), Inches(0.6))
     p = hb.text_frame.paragraphs[0]
     r = p.add_run()
-    r.text = "Campus E-ricks waste ~8 min per ride on average"
+    r.text = "Campus E-ricks leak time, money and trust on every ride"
     set_run_font(r, name="Georgia", size=24, bold=True, color=ACCENT)
 
     bullets = [
-        "Long peak-hour wait times - mean 8.2 min, 90th percentile 13 min.",
+        "Long peak-hour wait times - mean 3.3 min, 90th percentile 5 min.",
         "Payment friction - cash-only, change disputes, inconsistent fares.",
         "Poor night-hour availability - service thins after 9 pm.",
         "No accountability - no KPIs, no visibility, no complaint channel.",
@@ -478,10 +478,10 @@ def slide_05_wait_time(prs) -> None:
     slide = new_slide(prs, idx=5, title="Wait Time Reality",
                       footer="Tool: Histogram - Ref. Ch.2 Basic 7 QC Tools")
     bullets = [
-        "Mean 8.2 min, median 7 min, 90th percentile 13 min - distribution is right-skewed.",
-        "About 30% of respondents report waits over 10 min at peak hours.",
-        "Tail risk is the presentation problem: long outlier waits damage trust more than the average.",
-        "App target: cap p90 under 3 min, not just shift the mean.",
+        "Mean 3.3 min, median 3 min, 90th percentile 5 min - tight but right-skewed distribution.",
+        "Wait time is not the dominant pain; compounded with forced-fill and payment friction it still erodes trust.",
+        "The p90 tail (5 min) is the real failure mode on a 10-min window to class.",
+        "App target: cap p90 under 2 min via pre-booking and zone aggregation.",
     ]
     add_image_with_insights(slide, SURVEY_CHARTS / "wait_times_histogram.png",
                               bullets,
@@ -726,10 +726,10 @@ def slide_22_impact(prs) -> None:
     pL0.space_after = Pt(10)
 
     base_lines = [
-        "Average boarding wait: 8.2 min",
+        "Average boarding wait: 3.3 min",
         "Fare leakage (cash): ~5-8%",
         "Empty-return share: ~30%",
-        "Overall satisfaction: 2.1 / 5",
+        "Overall satisfaction: 2.9 / 5",
     ]
     for line in base_lines:
         p = tfL.add_paragraph()
@@ -752,7 +752,7 @@ def slide_22_impact(prs) -> None:
     pR0.space_after = Pt(10)
 
     tgt_lines = [
-        "Average boarding wait: < 2 min",
+        "Average boarding wait: < 1.5 min",
         "Fare leakage (wallet): < 0.01%",
         "Empty-return share: < 10%",
         "Overall satisfaction: > 4.0 / 5",
@@ -769,7 +769,7 @@ def slide_22_impact(prs) -> None:
                                     Inches(12.0), Inches(0.6))
     p = sub.text_frame.paragraphs[0]
     r = p.add_run()
-    r.text = ("75% reduction in boarding wait; near-elimination of leakage.")
+    r.text = ("55% reduction in boarding wait; near-elimination of leakage.")
     set_run_font(r, name="Georgia", size=18, italic=True, bold=True, color=INK)
 
 
@@ -778,7 +778,7 @@ def slide_23_governance(prs) -> None:
                       footer="Framing: SPC (X-bar) - Ref. Ch.4; Measurement - Ch.1")
     headers = ["KPI", "Baseline", "Target", "Measurement"]
     rows = [
-        ["Average boarding wait (min)", "8.2", "< 2.0",
+        ["Average boarding wait (min)", "3.3", "< 1.5",
          "Server timestamps (booked -> reached); SPC X-bar chart weekly"],
         ["Fare leakage (% of GMV)", "~5 - 8%", "< 0.01%",
          "Wallet auto-debit logs; reconciliation report"],
@@ -796,7 +796,7 @@ def slide_23_governance(prs) -> None:
 def slide_24_conclusion(prs) -> None:
     slide = new_slide(prs, idx=24, title="Conclusion & Next Steps")
     bullets = [
-        "Problem is real and measurable - 8.2 min mean wait, 56.8% of pain concentrated in the top-3 issues, satisfaction at 2.9 / 5.",
+        "Problem is real and measurable - 56.8% of pain concentrated in the top-3 issues, mean wait 3.3 min with a 5-min p90 tail, satisfaction at 2.9 / 5.",
         "Prototype demonstrates every core flow end-to-end: proximity map, booking, 60-sec countdown, wallet auto-debit, driver 'Reached' seat-lock, admin KPIs - with edge cases (offline add, cancellation, dispute) handled.",
         "Pilot-ready: a two-week PDCA pilot in one zone will surface real-world constants (actual leakage %, adoption curve, driver onboarding time).",
     ]
