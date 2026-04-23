@@ -221,7 +221,6 @@ def chart_histogram():
         title="How long students wait to board an E-rickshaw",
         subtitle="Self-reported peak-hour wait time,  n=150",
     )
-    add_footer(fig)
 
     save(fig, "wait_times_histogram.png")
 
